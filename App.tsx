@@ -37,6 +37,13 @@ const styles = StyleSheet.create({
 		height: bigCardWidth + 50,
 		alignItems: "flex-end",
 		justifyContent: "center",
-		marginTop: 30
+		marginTop: 30,
+		shadowColor: "#000",
+		shadowOffset: {
+			height: 10,
+			width: 0
+		},
+		shadowRadius: 10,
+		shadowOpacity: 0.2
 	}
 });
